@@ -1,8 +1,9 @@
 name: New Glossary Term
-about: 新的术语词
+about: "新的术语词"
 title: "[新术语词]"
 body:
   - type: textarea
+    label: "original"
     id: original
     attributes:
       description: 术语的原名
@@ -11,12 +12,14 @@ body:
       required: true
   - type: textarea
     id: translation
+    label: "translation"
     attributes:
       description: 术语的译文
     validations:
       required: true
   - type: dropdown
     id: state
+    label: "state"
     attributes:
       description: 状态
       options:
