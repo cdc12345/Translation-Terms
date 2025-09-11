@@ -5,10 +5,12 @@ title: "[新术语词]"
 labels: ''
 assignees: ''
 body:
+  - type: markdown
+    attributes:
+      value: 欢迎你提交这玩意（
   - type: textarea
     id: original
     attributes:
-      label: 原文
       description: 术语的原名
       placeholder: 术语的原文，如entity
     validations:
@@ -16,14 +18,12 @@ body:
   - type: textarea
     id: translation
     attributes:
-      label: 译文
       description: 术语的译文
     validations:
       required: true
   - type: dropdown
     id: state
     attributes:
-      label: 状态
       description: 状态
       options:
         - 推荐
