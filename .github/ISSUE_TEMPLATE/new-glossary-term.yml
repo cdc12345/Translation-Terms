@@ -6,22 +6,22 @@ body:
     label: "original"
     id: original
     attributes:
-      description: 术语的原名
-      placeholder: 术语的原文，如entity
+      description: "术语的原名"
+      placeholder: "术语的原文，如entity"
     validations:
       required: true
   - type: textarea
     id: translation
     label: "translation"
     attributes:
-      description: 术语的译文
+      description: "术语的译文"
     validations:
       required: true
   - type: dropdown
     id: state
     label: "state"
     attributes:
-      description: 状态
+      description: "状态"
       options:
         - 推荐
         - 草稿
