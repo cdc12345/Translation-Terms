@@ -9,18 +9,15 @@ body:
     id: original
     attributes:
       label: 原文
-      description: |
-        术语的原名
-      placeholder: |
-        术语的原文，如entity
+      description: 术语的原名
+      placeholder: 术语的原文，如entity
     validations:
       required: true
   - type: textarea
     id: translation
     attributes:
       label: 译文
-      description: |
-      术语的译文
+      description: 术语的译文
     validations:
       required: true
   - type: dropdown
