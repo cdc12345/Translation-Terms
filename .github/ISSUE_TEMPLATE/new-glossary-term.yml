@@ -2,7 +2,7 @@ name: New Glossary Term
 description: "新的术语词"
 title: "[新术语词]"
 body:
-  - type: textarea
+  - type: input
     id: original
     attributes:
       label: "术语原文"
@@ -10,7 +10,7 @@ body:
       placeholder: "术语的原文，如entity"
     validations:
       required: true
-  - type: textarea
+  - type: input
     id: translation
     attributes:
       label: "术语的译文"
