@@ -5,7 +5,7 @@ body:
   - type: textarea
     id: original
     attributes:
-      label: "original"
+      label: "术语原文"
       description: "术语的原名"
       placeholder: "术语的原文，如entity"
     validations:
@@ -13,7 +13,7 @@ body:
   - type: textarea
     id: translation
     attributes:
-      label: "translation"
+      label: "术语的译文"
       description: "术语的译文"
     validations:
       required: true
@@ -27,6 +27,12 @@ body:
         - 草稿
         - 弃置 
       default: 0
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: "术语的描述"
     validations:
       required: true
 
