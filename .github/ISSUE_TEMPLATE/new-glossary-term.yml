@@ -2,7 +2,7 @@ name: New Glossary Term
 about: 新的术语词
 title: "[新术语词]"
 body:
-- type: textarea
+  - type: textarea
     id: original
     attributes:
       description: 术语的原名
