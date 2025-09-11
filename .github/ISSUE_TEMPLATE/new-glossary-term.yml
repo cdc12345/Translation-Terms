@@ -1,26 +1,26 @@
 name: New Glossary Term
-about: "新的术语词"
+description: "新的术语词"
 title: "[新术语词]"
 body:
   - type: textarea
-    label: "original"
     id: original
     attributes:
+      label: "original"
       description: "术语的原名"
       placeholder: "术语的原文，如entity"
     validations:
       required: true
   - type: textarea
     id: translation
-    label: "translation"
     attributes:
+      label: "translation"
       description: "术语的译文"
     validations:
       required: true
   - type: dropdown
     id: state
-    label: "state"
     attributes:
+      label: "state"
       description: "状态"
       options:
         - 推荐
