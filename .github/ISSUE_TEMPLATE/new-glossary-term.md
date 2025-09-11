@@ -2,12 +2,7 @@
 name: New Glossary Term
 about: 新的术语词
 title: "[新术语词]"
-labels: ''
-assignees: ''
-body:
-  - type: markdown
-    attributes:
-      value: 欢迎你提交这玩意（
+body: 
   - type: textarea
     id: original
     attributes:
